@@ -1,0 +1,47 @@
+/* App.css */
+
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+}
+
+/* Styling for the header */
+h1 {
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 20px;
+  font-size: 2.5rem;
+}
+
+h2 {
+  text-align: center;
+  color: #34495e;
+  font-size: 1.2rem;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+/* Styling for the container of components */
+.container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+/* Styling for each component */
+.component-box {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 40%;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.component-box:hover {
+  transform: scale(1.05);
+}
